@@ -4,11 +4,24 @@ Reactive programming is a programming paradigm that focuses on data streams and 
 
 ## Key concepts
 
-- <b>Data streams</b>: Data is treated as a continuous flow of events or values over time, rather than static values.
-- <b> Observables</b>: They represent responses from events. When an event occurs, an Observable can emit a response associated with that event, and observers can subscribe to the Observable to receive these responses
-- <b>Operators</b>: Functions that transform, filter, combine, or otherwise manipulate data streams, creating new streams.
-- <b>Non-blocking </b>: Reactive programs don't block while waiting for events or data. They can continue processing other tasks, making them efficient and scalable.
-- <b> Declarative </b>: Reactive programs often use a declarative style, where you specify what you want to happen (the desired outcome), rather than how to make it happen (the imperative steps).
+- #### Data streams
+
+  Data streams can represent anything from user input, server responses. It is treated as a continuous flow of events or values over time, rather than static values.
+
+- #### Observables
+
+  You can say that Observables represent responses from events. Observables are essentially streams of data that can emit values over time. When an event occurs, an Observable can emit a response associated with that event, and observers can subscribe to the Observable to receive these responses. This makes Observables particularly useful in handling asynchronous or time-based event data, such as user input, HTTP requests, or any other type of event that might produce data over time..
+
+- #### Operators
+
+  Operators are functions that allow complex asynchronous code to be easily composed in a declarative manner. Using the map and filter operators, you can transform the data received from the endpoint before it's handled by the subscriber.
+
+- #### Non-blocking
+
+  Reactive programs don't block while waiting for events or data. They can continue processing other tasks, making them efficient and scalable.
+
+- #### Declarative
+  Reactive programs often use a declarative style, where you specify what you want to happen (the desired outcome), rather than how to make it happen (the imperative steps).
 
 ## Common use cases
 
