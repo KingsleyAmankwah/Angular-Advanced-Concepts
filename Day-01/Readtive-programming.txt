@@ -1,0 +1,2 @@
+
+Reactive programming is a programming paradigm that focuses on data streams and propagation of change. It's a way to structure programs that are event-driven, resilient, and responsive.
