@@ -4,7 +4,7 @@ Operators allow you to transform, combine, manipulate, and work with the sequenc
 
 ## Types Of Operators
 
-1. ### Creation Operators
+### 1. Creation Operators
 
 Create an observable from nearly anything (e.g., of, from, interval)
 
@@ -28,7 +28,7 @@ clock.subscribe(x => console.log(x)); // Output: 0, 1, 2, 3, ...
 
 ```
 
-2. ### Transformation Operators
+### 2. Transformation Operators
 
 Transform values passed through the observable (e.g., map, bufferTime, concatMap)
 
@@ -54,8 +54,9 @@ evenNumbers.subscribe(x => console.log(x)); // Output: 2, 4
 
 ```
 
-3. ### Combination Operators
-   Combine multiple observables (e.g., merge, concat, combineLatest).
+### 3. Combination Operators
+
+Combine multiple observables (e.g., merge, concat, combineLatest).
 
 - merge: Combines multiple Observables into a single Observable, emitting values as they arrive from any source.
 
@@ -69,8 +70,9 @@ merged.subscribe(x => console.log(x)); // Output: interleaved values from both s
 
 ```
 
-4. ### Error Handling Operators
-   For error handling strategies (e.g., catchError, retry)
+### 4. Error Handling Operators
+
+For error handling strategies (e.g., catchError, retry)
 
 ```
 import { catchError } from 'rxjs/operators';
@@ -83,8 +85,9 @@ numbers.pipe(catchError(error => of('Error handled!')))
 
 ```
 
-5. ### Utility Operators
-   Provide useful utilities (e.g., tap for debugging)
+### 5. Utility Operators
+
+Provide useful utilities (e.g., tap for debugging)
 
 ```
 import { tap } from 'rxjs/operators';
