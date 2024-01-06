@@ -38,12 +38,7 @@ Before starting, ensure you have a good understanding of:
 ### Day 4: Combining Streams
 
 - Learn about combining multiple streams
-- Hands-on: Building a reactive user interface
-
-### Day 5: Practice and Project
-
-- Practice: Implement an autocomplete search feature
-- Begin a mini-project using RxJS extensively
+- Hands-on: Building a reactive chip input
 
 ## Week 2: State Management with NgRx
 
