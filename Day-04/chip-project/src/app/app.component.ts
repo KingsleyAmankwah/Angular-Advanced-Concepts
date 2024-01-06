@@ -13,5 +13,5 @@ import { ChipComponent } from './chip/chip.component';
 export class AppComponent {
   title = 'chip-project';
 
-  items = ['Angular', 'React', 'Vue'];
+  items = ['Hello Welcome', 'Start typing...'];
 }
