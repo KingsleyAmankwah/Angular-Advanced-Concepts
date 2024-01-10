@@ -40,12 +40,12 @@ Before starting, ensure you have a good understanding of:
 - Learn about combining multiple streams
 - Hands-on: Building a reactive chip input
 
-## Week 2: State Management with NgRx
+## Week 2: State Management with NgRx or Services
 
 ### Day 1: Understanding State Management
 
 - Discuss the need for state management
-- Introduction to NgRx and its core principles
+- Introduction to NgRx and Services and its core principles
 
 ### Day 2: Actions, Reducers, and Store
 
