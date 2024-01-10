@@ -52,17 +52,30 @@ Before starting, ensure you have a good understanding of:
 - Deep dive into Actions, Reducers, Store and Services
 - Hands-on: Setting up NgRx and Services in an Angular application
 
-### Day 3: Effects and Selectors
+### Day 3: NgRx Effects and Selectors / Service-based Reactive Data
 
-- Understanding Effects for handling side effects
-- Using Selectors for efficient state queries
+#### NgRx
 
-### Day 4: Entity Adapter and Router Store
+- Learn how to handle side effects with NgRx Effects.
+- Explore efficient state queries using NgRx Selectors.
 
-- Learn about normalizing state shape with Entity
-- Integrating the Router with Store
+#### Services
 
-### Day 5: Practice and Project
+- Understand reactive state management with Angular Services.
+- Study data fetching and handling side effects in Services.
+
+### Day 4: NgRx Entity and Router Store / Advanced State Management with Services
+
+#### NgRx
+- Delve into state normalization using NgRx Entity.
+- Integrate Angular Router state with NgRx Store.
+
+#### Services
+
+- Investigate complex state management using Angular Services.
+- Examine state synchronization with Angular Router.
+
+### Day 5: Implementing State Management (NgRx and Services)
 
 - Practice: Implement feature state management for an existing app
 - Continue working on the NgRx project
