@@ -47,10 +47,10 @@ Before starting, ensure you have a good understanding of:
 - Discuss the need for state management
 - Introduction to NgRx and Services and its core principles
 
-### Day 2: Actions, Reducers, and Store
+### Day 2: Understanding concepts in NgRx and Services
 
-- Deep dive into Actions, Reducers, and the Store
-- Hands-on: Setting up NgRx in an Angular application
+- Deep dive into Actions, Reducers, Store and Services
+- Hands-on: Setting up NgRx and Services in an Angular application
 
 ### Day 3: Effects and Selectors
 
