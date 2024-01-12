@@ -75,10 +75,10 @@ Before starting, ensure you have a good understanding of:
 - Investigate complex state management using Angular Services.
 - Examine state synchronization with Angular Router.
 
-### Day 5: Implementing State Management (NgRx and Services)
+<!-- ### Day 5: Implementing State Management (NgRx and Services)
 
 - Practice: Implement feature state management for an existing app
-- Continue working on the NgRx project
+- Continue working on the NgRx project -->
 
 ## Week 3: Advanced Angular Features
 
